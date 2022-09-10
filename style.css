@@ -1,4 +1,31 @@
-#categories{
+html, body{
+    margin:0px;
+  }
+
+
+.header_and_footer{
+    display: flex;
+    align-items:center;
+    background-color: #35B1E7;
+    border-color: black;
+    border-width: 10px;
+    flex-direction: column;
+    width: 15%;
+    height: 100%;
+    justify-content: center;
     position: fixed;
-    background-color:blue;
+    z-index: 999;
+}
+
+
+
+#categories{
+    background-color: #67A3FF;
+    border-radius: 5px;
+    font-family: Assistant,sans-serif;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    
 }
